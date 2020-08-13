@@ -38,5 +38,13 @@ public abstract class Shape {
                 ", filed=" + filed +
                 '}';
     }
-    
+    public static void main(String[] args) {
+	Shape sh = new Shape("black", false);
+        String s = sh.toString();
+        double a = sh.getParameter();
+        double b = sh.getArea();
+        System.out.println(s);
+        System.out.println(a);
+        System.out.println(b);
+	}
 }
