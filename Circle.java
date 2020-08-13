@@ -41,12 +41,12 @@ public class Circle extends Shape{
         return 0;
     }
     public static void main(String[] args) {
-		    Circle c = new Circle("orange", false, 12);
+	Circle c = new Circle("orange", false, 12);
         String s = c.toString();
         double a = c.getParameter();
         double b = c.getArea();
         System.out.println(s);
         System.out.println(a);
         System.out.println(b);
-	  }
+	}
 }
